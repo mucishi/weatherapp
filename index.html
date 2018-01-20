@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scable=0,maximum-scable=1,minimum-scable=1">
+	<title>tianqi	app</title>
+	<link rel="shortcut icon"href="D:\logo.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/pulic.css">
+	<script src="js/jquery3.2.1.min.js"></script>
+	<script src="js/rem.js"></script>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/shuju.js"></script>
+</head>
+<body>
+    <!-- 当下的天气情况 -->
+	<header>
+		<h1 class="now_city_box">
+			<span class="dingwei">&#xe61e;</span>
+			<span class="now_city"></span>
+
+		</h1>
+		<div class="now_air_box">
+			<span class="now_air_title">空气</span>
+			<span class="now_air_quality"></span>
+		</div>
+		<h2 class="now_temp">
+			<span class="now_temp_temp"></span><span>°</span><!-- 仅限span可以这么操作 -->
+		</h2>
+		<h3 class="now_weather"></h3>
+		<h4 class="now_wind">
+			<span class="now_wind_wind">风力</span>
+			<span class="now_wind_wind2"></span>
+		</h4>
+		<h5 class="now_tip">天冷了，请注意保暖~</h5>
+	</header>
+	<!-- 近期两天的天气 -->
+	<section class="next">
+		<div class="next_box next_box1">
+			<div class="next_top">
+				<span class="next_data">今天</span>
+				<p class="next_temp">
+					<span class="today_temp_max"></span>/<span class="today_temp_min"></span>°C
+				</p>
+			</div>
+			<div class="next_bottom">
+				<span class="today_weather"></span>
+				<img src="" alt="" class="today_img">	
+			</div>
+		</div>
+		<div class="next_box">
+			<div class="next_top">
+				<span class="next_data">明天</span>
+				<p class="next_temp">
+					<span class="tomorrow_temp_max"></span>/<span class="tomorrow_temp_min"></span>°C
+				</p>
+			</div>
+			<div class="next_bottom">
+				<span class="tomorrow_weather"></span>
+				<img src="img/1.png" alt="" class="tomorrow_img">	
+			</div>
+		</div>
+	</section>
+	<!-- 未来24小时的天气情况 -->
+	<section class="hours">
+		<ul class="hours_content">
+		</ul>
+	</section>
+	<!-- 未来一星期的天气情况 -->
+	<section class="weekend">
+	    <ul class="weekend_content">
+	    </ul>
+	</section>	
+     <!-- city天气模块 -->
+	<section class="citys">
+		<div class="search">
+			<input type="text" class="search_box" placeholder="请输入搜索内容">
+			<span class="confirm">取消</span><!-- 确认按钮 -->
+		</div>
+		<div class="citys_box">
+		    <section><!-- 包模块 -->
+		     	<h1 class="citys_title1">热门城市</h1>
+		     	<ul class="citys_list">
+		     	    <li>昆明</li>
+		     	    <li>北京</li>
+		     	    <li>太原</li>
+		     	    <li>南京</li>
+		     	    <li>济南</li>
+		     	    <li>青岛</li>
+                </ul>
+		    </section>
+		</div>
+	</section>
+
+
+	
+</body>
+</html>
