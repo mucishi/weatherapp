@@ -116,7 +116,7 @@ header{
 }
 .hours_content{
 	height: 100%;
-	background-color: pink;
+	background-color: white;
 	display: flex ;
 	overflow-x: scroll;
 }
